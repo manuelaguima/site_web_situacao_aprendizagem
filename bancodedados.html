@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="1.png" type="image/x-icon">
+    <title>Banco de Dados</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="bancodedados.html">Modelagem de Banco de Dados</a></li>
+                <li><a href="arduino.html">Sistemas com Arduino</a></li>
+                <li><a href="servicos.html">Serviços de Rede</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+
+    <main>
+        <section>
+            <h1>Modelagem de Banco de Dados</h1>
+          <ul><p>A modelagem de banco de dados é o processo de criação de uma estrutura organizada para armazenar, gerenciar e acessar dados em um banco de dados. Essa estrutura define como os dados serão organizados e como as diferentes partes desses dados se relacionam. O principal objetivo da modelagem de banco de dados é representar de forma clara e eficiente as informações de uma organização ou sistema, facilitando sua manipulação e uso futuro.</p></ul>
+        </section>
+
+        <section>
+            <h3>Como funciona modelagem conceitual</h3>
+            <p> A modelagem conceitual é a fase inicial da modelagem de banco de dados, onde o foco está em representar o que será armazenado no banco de dados de maneira abstrata, sem se preocupar com detalhes técnicos ou de implementação. É a visão de alto nível que descreve entidades e relacionamentos, visando capturar a essência dos dados e suas interações.</p>
+            <h3>Principais características </h3>
+                  <ul>
+                    <li>Define entidades (ex.: Cliente, Produto, Pedido) e seus relacionamentos (ex.: um Cliente faz vários Pedidos).</li>
+                    <li>Não inclui detalhes como tipos de dados ou estrutura de tabelas.</li>
+                    <li>É independente de qualquer tecnologia de banco de dados específica.</li>
+                  </ul>
+                  <p>Objetivo: Fornecer uma visão clara dos dados e suas interações no contexto do negócio, ajudando a entender os principais elementos e suas associações.</p>
+            <p>Aqui a baixo temos uma imagem de um modelo conceitual feito pela empresa </p>
+
+            <img src="" id="imagemTabela">
+            <p>Essa imagem é o mapa conceitual</p>
+        </section>
+  <section>
+        <h3>Como funciona a modelagem lógica</h3>
+        <p>A modelagem lógica é mais detalhada que a conceitual e começa a definir como os dados serão organizados, mantendo-se ainda independente do sistema de gerenciamento de banco de dados (SGBD) que será usado. Ela define com mais precisão entidades, atributos, chaves primárias, chaves estrangeiras e relacionamentos.</p>
+        <h3>Principais características</h3>
+              <ul>
+                <li>As entidades são transformadas em tabelas.</li>
+                <li>Inclui os atributos (ou colunas) de cada entidade.</li>
+                <li>Inclui os atributos (ou colunas) de cada entidade.</li>
+                <li>Estabelece chaves primárias e chaves estrangeiras.</li>
+                <li>Ainda não inclui detalhes de implementação específicos, como tipos de dados.</li>
+              </ul>
+               <p>Objetivo: Proporcionar uma visão estruturada dos dados e garantir a integridade e consistência entre tabelas, preparando o terreno para a fase física.</p>
+               <p>Aqui a baixo temos uma imagem de um modelo lógico feito pela empresa </p>
+               <img src="" id="imagemTabela">
+<section>
+
+    <section>
+        <h3>Como funciona a modelagem física</h3>
+        <p>A modelagem física é a fase final da modelagem de banco de dados e define como os dados serão armazenados fisicamente no sistema de gerenciamento de banco de dados (SGBD) escolhido. Aqui, os detalhes técnicos específicos são definidos, como tipos de dados, índices, partições, esquemas de armazenamento e regras de performance.</p>
+        <h3>Principais características</h3>
+              <ul>
+                <li>Define tipos de dados (ex.: INT, VARCHAR, DATE) para cada coluna.</li>
+                <li>Define índices para otimizar as consultas de dados.</li>
+                <li>Inclui detalhes sobre o desempenho, como a organização dos dados em disco e regras de otimização.</li>
+                <li>Pode incluir esquemas de partição para grandes volumes de dados.</li>
+                <li>Está completamente vinculado a um SGBD específico (ex.: MySQL, PostgreSQL, Oracle).</li>
+              </ul>
+        <p>Objetivo: Garantir que os dados sejam armazenados e acessados da maneira mais eficiente possível, considerando o SGBD escolhido e as necessidades de desempenho.</p>
+        <p>Aqui a baixo temos uma imagem de um modelo físico feito pela empresa </p>
+        <img src="" id="imagemTabela">
+<section>
+
+
+
+    </main>
+</body>
+</html>
