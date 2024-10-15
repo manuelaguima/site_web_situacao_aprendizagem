@@ -80,6 +80,9 @@ p {
     width: 50vw;
 }
 
+ul {
+    text-align: start;
+}
 
 nav ul li a.active {
     background-color: #a9a9a9; 
